@@ -17,5 +17,5 @@ class Solution:
                     best_way[i] = min(best_way[i], cost + dfs(j))
             return best_way[i]
             
-        
+         
         return dfs(0)
