@@ -7,4 +7,7 @@ class Solution:
                 count_odd += 1
             else:
                 count_even += 1
-        return min(count_odd, count_even)
+        
+        if (count_even > count_odd):
+            return count_odd
+        return count_even
