@@ -5,7 +5,7 @@ class Solution:
         for i in rectangles:
             if (min(i[0],i[1]) > size):
                 size = min(i[0],i[1])
-                counter = 0
+                counter = 1
             elif (min(i[0],i[1]) == size):
                 counter += 1
-        return counter + 1
+        return counter
