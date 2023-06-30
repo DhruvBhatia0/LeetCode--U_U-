@@ -10,6 +10,5 @@ class Solution:
         for price in prices[1:]:
             minPrice = min(minPrice, price)
             maxProfit = max(maxProfit, price - minPrice)
-            print(price, minPrice, maxProfit)
 
         return maxProfit
