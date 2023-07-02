@@ -33,3 +33,8 @@ class Solution:
             
             
         return count
+    
+    """
+    time : O(n^2)
+    space: O(1)
+    """
