@@ -10,7 +10,6 @@ class Solution:
             result = max( result, max(n, max(temp_max, temp_min)))
             max_r = max(temp_max, n)
             min_r = min(temp_min, n)
-            print(max_r, min_r, result, n)
             
         return result
             
